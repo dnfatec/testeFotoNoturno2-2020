@@ -21,7 +21,12 @@ EditText txLeitura;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toast.Maketecfdsfdfdsfsfdsf
+ldasdlksaldkaslkd
+        dasdlaskdasçd
+        dasdlkasldka
+                dasdlkasldka
+                dasdlkasldkas
+                        dasdlaskdlkas
         retiraFoto();
         lerCodigos();
     }
