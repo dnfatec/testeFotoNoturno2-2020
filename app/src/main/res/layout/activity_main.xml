@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/suaImagem"
+        android:layout_width="match_parent"
+        android:layout_height="396dp"
+        android:scaleType="fitCenter"
+        tools:srcCompat="@tools:sample/avatars" />
+    <Button
+        android:id="@+id/btnTiraFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fotografar" />
+
+    <Button
+        android:id="@+id/btnLeitura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leitura QRCode/CodBar" />
+
+    <EditText
+        android:id="@+id/edtLeitura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+</LinearLayout>
