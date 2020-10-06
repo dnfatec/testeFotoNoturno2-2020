@@ -23,6 +23,8 @@ EditText txLeitura;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toast.makeText(getApplicationContext(), "v4", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "v4c", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "v4d", Toast.LENGTH_LONG).show();
         retiraFoto();
         lerCodigos();
 
