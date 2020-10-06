@@ -14,7 +14,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-Button btTiraFoto, btLeitura;
+Button btTiraFoto, btLeitura, btAbrirTela;
 ImageView imgSuaImagem;
 EditText txLeitura;
 
@@ -22,15 +22,17 @@ EditText txLeitura;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toast.makeText(getApplicationContext(), "v4", Toast.LENGTH_LONG).show();
-        Toast.makeText(getApplicationContext(), "v4c", Toast.LENGTH_LONG).show();
-        Toast.makeText(getApplicationContext(), "v4d", Toast.LENGTH_LONG).show();
-        Toast.makeText(getApplicationContext(), "v4e", Toast.LENGTH_LONG).show();
-        Toast.makeText(getApplicationContext(), "v4f", Toast.LENGTH_LONG).show();
-        Toast.makeText(getApplicationContext(), "v4g", Toast.LENGTH_LONG).show();
+
+        btAbrirTela=(Button)findViewById(R.id.btnAbrirTela);
+        btAbrirTela.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent tela = new Intent(MainActivity.this, TelaActivity2.class);
+                startActivity(tela);
+            }
+        });
         retiraFoto();
         lerCodigos();
-
     }
     private void lerCodigos(){
        btLeitura=(Button)findViewById(R.id.btnLeitura);
