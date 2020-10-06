@@ -24,6 +24,16 @@ EditText txLeitura;
 ldasdlksaldkaslkd
         retiraFoto();
         lerCodigos();
+        dasdasd
+                dasdsa
+                dasd
+                        asd
+                        dasd
+                                asdas
+                                dasd
+                                        sad
+                                        adasd
+
     }
     private void lerCodigos(){
        btLeitura=(Button)findViewById(R.id.btnLeitura);
