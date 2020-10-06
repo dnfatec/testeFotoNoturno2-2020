@@ -25,6 +25,9 @@ EditText txLeitura;
         Toast.makeText(getApplicationContext(), "v4", Toast.LENGTH_LONG).show();
         Toast.makeText(getApplicationContext(), "v4c", Toast.LENGTH_LONG).show();
         Toast.makeText(getApplicationContext(), "v4d", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "v4e", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "v4f", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "v4g", Toast.LENGTH_LONG).show();
         retiraFoto();
         lerCodigos();
 
