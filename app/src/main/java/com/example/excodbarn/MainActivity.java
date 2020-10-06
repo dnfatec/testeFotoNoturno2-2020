@@ -22,11 +22,6 @@ EditText txLeitura;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 ldasdlksaldkaslkd
-        dasdlaskdasçd
-        dasdlkasldka
-                dasdlkasldka
-                dasdlkasldkas
-                        dasdlaskdlkas
         retiraFoto();
         lerCodigos();
     }
