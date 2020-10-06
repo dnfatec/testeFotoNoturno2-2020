@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 Button btTiraFoto, btLeitura;
@@ -21,18 +22,9 @@ EditText txLeitura;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-ldasdlksaldkaslkd
         retiraFoto();
         lerCodigos();
-        dasdasd
-                dasdsa
-                dasd
-                        asd
-                        dasd
-                                asdas
-                                dasd
-                                        sad
-                                        adasd
+        Toast.makeText(getApplicationContext(), "v4", Toast.LENGTH_LONG).show();
 
     }
     private void lerCodigos(){
