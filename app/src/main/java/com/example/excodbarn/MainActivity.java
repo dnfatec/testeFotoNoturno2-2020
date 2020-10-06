@@ -22,6 +22,10 @@ EditText txLeitura;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Toast.makeText(getApplicationContext(), "v4", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "v4b", Toast.LENGTH_LONG).show();
+
         retiraFoto();
         lerCodigos();
         Toast.makeText(getApplicationContext(), "v4", Toast.LENGTH_LONG).show();
